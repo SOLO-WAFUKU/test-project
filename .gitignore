@@ -42,4 +42,4 @@ logs/
 # Temporary files
 tmp/
 temp/
-EOF < /dev/null
+EOF < /dev/nullcoverage/
