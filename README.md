@@ -9,7 +9,11 @@
 
 **実行方法:**
 ```bash
-node index.js
+npm start
+```
+または
+```bash
+node src/index.js
 ```
 
 **出力結果:**
