@@ -1,28 +1,77 @@
 # Test Project
 
-このプロジェクトは、基本的なJavaScriptプログラムの学習を目的としたサンプルコードを含んでいます。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen)](https://nodejs.org)
+[![Code Style: ESLint](https://img.shields.io/badge/code%20style-ESLint-4B32C3.svg)](https://eslint.org/)
 
-## プログラムの説明
+A simple JavaScript learning project with modern development setup.
 
-### index.js
-1から10までの数値を合計するプログラムです。forループを使用して数値を累積し、結果をコンソールに出力します。
+## 🚀 Features
 
-**実行方法:**
+- ✅ Modern JavaScript (ES6+)
+- ✅ ESLint for code quality
+- ✅ Jest for testing
+- ✅ GitHub Actions CI/CD
+- ✅ VS Code integration
+
+## 📦 Installation
+
 ```bash
-npm start
+# Clone the repository
+git clone https://github.com/SOLO-WAFUKU/test-project.git
+cd test-project
+
+# Install dependencies
+npm install
 ```
-または
+
+## 🛠️ Available Scripts
+
 ```bash
-node src/index.js
+# Run linter
+npm run lint
+
+# Run tests
+npm test
+
+# Run tests with coverage
+npm test -- --coverage
 ```
 
-**出力結果:**
+## 📁 Project Structure
+
 ```
-1から10までの合計: 55
+test-project/
+├── src/              # Source code
+│   ├── index.js
+│   ├── buggy.js
+│   └── todo.js
+├── tests/            # Test files
+│   ├── index.test.js
+│   └── buggy.test.js
+├── docs/             # Documentation
+├── .vscode/          # VS Code settings
+├── package.json      # Project configuration
+├── jest.config.js    # Jest configuration
+└── eslint.config.js  # ESLint configuration
 ```
 
-### その他のファイル
+## 🧪 Testing
 
-- `buggy.js`: 修正された加算関数のサンプル
-- `todo.js`: 配列を使用したシンプルなToDoリストアプリケーション
-- `CLAUDE.md`: Claude Codeのためのプロジェクト情報
+The project uses Jest for testing. Tests are located in the `tests/` directory.
+
+Current test coverage:
+- `buggy.js`: 100% coverage
+- `index.js`: 0% coverage (TODO)
+- `todo.js`: 0% coverage (TODO)
+
+## 📝 TODO
+
+- [ ] Add more tests for `index.js`
+- [ ] Implement functionality in `todo.js`
+- [ ] Add CI badge once GitHub Actions is set up
+- [ ] Create a simple web application
+
+## 📄 License
+
+This project is licensed under the MIT License.
